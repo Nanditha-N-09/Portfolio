@@ -1,0 +1,133 @@
+/* GLOBAL------------
+COLOR PALETTE
+
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6
+*/
+
+
+html {   
+  box-sizing: border-box;
+  font-size: 62.5%; /* set default to 10px */
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.content-wrapper{
+  margin: 10px;
+  width: 90px;
+  padding: 30px;
+}
+
+.resume header::before{
+  background-image: url();
+  background-size: cover;
+  display: block;
+  height: 375px;
+  content: "";
+}
+ body {
+    background-color: #b6b44a; 
+    background-image: url(download.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  
+  } 
+
+  .flex-container {
+    al:center;
+    font-size: larger;
+    background: rgb(235, 229, 234);
+    /* border: 4px solid darkslategrey; */
+   display: flex; 
+   flex-direction: column;
+    width:1000px;
+    height: 300px;
+    align-items: center;
+   flex-wrap: wrap;
+   padding: 30px;
+   
+    /* flex-direction: column; */
+  }
+
+
+.home{
+    background-image: url(../Portfolio/project-biz-cards-500px.jpg);
+}
+
+
+
+a{
+  color: firebrick;
+}
+a:hover{
+  color: aqua;
+}
+
+
+
+div{
+  background: rgb(245, 247, 248);
+
+}
+
+
+.home .content-wrapper{
+  background: rgb(255,255,255/0.8);
+}
+
+footer{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:larger;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  color: black;
+      background-color: rgb(246, 242, 242);    
+}
+footer a{
+  color: rgb(12, 113, 113);
+}
+footer a:hover{
+  color:chocolate
+}
+.socials{
+  list-style-type: none;
+  padding: 0;
+}
+.socials li{
+  display:inline-block;
+}
+.socials img{
+  width: 32px;
+}
+
+div{
+  background-color: azure;
+  color: black;
+  background-position: center;
+}
+.btn{
+  background: #39469a;
+  color: white;
+  text-decoration: none;
+  border-radius: 8%;
+  padding: 10px 20px;
+}
+
+
+
+
+
+
+
